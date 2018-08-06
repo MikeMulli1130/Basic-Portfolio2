@@ -1,0 +1,31 @@
+header{
+    font-family:Georgia, 'Times New Roman', Times, serif; size: 84px; color: whitesmoke; background-color:teal; padding: 20px; margin-bottom:30px;border:20px; border-color:#cccccc;border-width: 20px;
+}
+
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif; size:18px; color:#4aaaa5;
+}
+
+section{
+    width: 960px;background-color:#ffffff;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif; size:14px; color: 777777; margin:20px;
+}
+
+.wrap {
+    width:960 px; background-color:yellow;
+}
+
+.linkers{
+    float: right;
+}
+
+.container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    clear: both;
+  }
+  
