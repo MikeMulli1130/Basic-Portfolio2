@@ -6,7 +6,8 @@ font-family: Arial, Helvetica, sans-serif; font-size: 18px; line-height: 34px; c
     box-sizing: border-box;
 }
 
-.container{
+.container 
+{
     width: 100%; max-width: 960px; margin:0 auto; clear:both;
 }
 
@@ -24,7 +25,10 @@ h1, h2, h3 {
 }
 
 h1{
-    padding-bottom: 20px; font-size: 30px; line-height: 49px; border-bottom: 3px solid #ddd;
+    padding-bottom: 20px; 
+    font-size: 30px; 
+    line-height: 49px; 
+    border-bottom: 3px solid #ddd;
 }
 
 h2, h3 {
@@ -33,19 +37,20 @@ h2, h3 {
 
 #masthead {
     position: fixed; 
-    z-index: 99; width: 100%; 
-    margin 0 30px; 
+    z-index: 99; 
+    width: 100%; 
+    margin: 0 30px; 
     overflow: auto; color: #fff; 
     background: #fff; 
     border-bottom: 2px solid #ccc;
 }
 
 #logo {
-    float: left; width 250px; height: 90px; 
+    float: left; width: 250px; height: 90px; 
     font-family: Georgia, Times, "Times New Roman", serif;
     font-size: 30px; font-weight: 700; 
     line-height: 90px;
-    color: #fff; text-align: center: 
+    color: #fff; text-align: center; 
     text-decoration: none; background: #4aaaa5;
 }
 
@@ -59,7 +64,7 @@ nav a {
     padding-left: 15px;
     margin-left: 15px;
     line-height: 18px;
-   border-left: solid; 1px; #efefef;
+   border-left: solid 1px #efefef;
 }
 
 nav a:first-child {
@@ -93,9 +98,53 @@ height: 50px;
         .main-section {
             float:left;
             width: 100%;
-            max-width: 960px;
-            padding: 30px;
+            max-width:960px;
+            padding:30px;
             margin: 0 0 40px;
             background: #fff;
-            border: solid 1px; #ddd;
+            border: solid 1px #ddd;
         }
+
+        /*portfolio*/
+
+        .work {
+            position: relative;
+            float: left;
+            width: 123px; 
+            margin: 20px 0 25px;
+            overflow: auto;
+        }
+
+        .work:nth-child(even) {
+            margin-right: 40px;
+        }
+
+        .work img {
+            width: 50%;
+            border: 0 none;
+            opacity: 0.8;
+        }
+
+        .work h3 {
+            position: absolute;
+            bottom: 20px;
+            width: 50%;
+           padding: 15px;
+           margin-bottom: 0;
+           font-weight: 300;
+           line-height: 30px;
+           color: #fff;
+           text-align: center;
+           background: #4aaaa5;
+           border-bottom: 0; 
+        }
+
+        .auth-image {
+            float: left;
+            width: 100px;
+            height: auto;
+            margin-top: 10px;
+            margin-right: 25px;
+        }
+
+    
